@@ -1,0 +1,198 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   font-family: "Roboto", sans-serif;
+}
+
+
+body{
+    background-color: #1C262B;
+    color: #ffffffd1;
+    overflow-x: hidden;
+}
+
+.container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+   
+}
+
+.formContainer{
+
+    background-color: #242C2E;
+    padding: 10px;
+    width: 375px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+}
+
+.heading{
+    color: #74eef5;
+    font-size:xx-large;
+    text-align: center;
+}
+
+.inputDiv{
+    display: flex;
+    gap: 6px;
+    padding: 10px;
+    flex-direction: column;
+    align-items: start;
+    font-size: small;
+}
+label{
+    margin-top: 8px;
+}
+.inputBox{
+    width: 330px;
+    border: 1px solid rgb(125, 124, 124);
+    border-radius: 6px;
+    padding: 8px 12px;
+    background-color: #3c474d;
+    color: #ffffffd1;
+}
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px #3c474d inset !important;
+  box-shadow: 0 0 0px 1000px #3c474d inset !important;
+  background-color: #3c474d !important;
+  -webkit-text-fill-color: #ffffffd1; /* Keep text visible */
+}
+.nameGrid{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.inputBox:focus{
+    outline: none;
+    border: 2px solid #74eef5;
+    background: #3c474d;
+}
+
+.star{
+    color: red;
+    margin-left: 3px;
+}
+
+.educationDiv > .inputBox{
+    width: 300px;
+}
+
+.addressGrid{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.addressGrid > .inputDiv > .inputBox{
+    width: 200px;
+}
+
+.emailDiv > .inputBox{
+    width: 250px;
+}
+ .inputBox:focus{
+    
+    background: #3c474d;
+}
+
+.addressGrid > .inputDiv > .inputBox{
+    width: 200px;
+}
+
+.zipDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.cityDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.stateDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#submitBtn{
+    width: 50%;
+    padding: 8px 20px;
+    font-size: larger;
+    background-color: #74eef5;
+    color: #ffffffd2;
+    border: none;
+    letter-spacing: 2px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#submitBtn:hover{
+    scale: 1.1;
+    transition: all ease-in-out 300ms;
+}
+
+.buttonDiv{
+   
+    margin: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+@media (min-width: 1024px) {
+    .formContainer{
+        width: 90%;
+        height: auto;
+        gap: 30px;
+        
+    }
+    .nameGrid{
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    .addressGrid{
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+    }
+     .inputDiv{
+        flex-direction: row;
+        gap: 20px;
+    }
+    
+    #submitBtn{
+        width: 20%;
+        padding: 10px 20px;
+        margin: auto;
+    }
+}
+
+@media (min-width : 768px) and (max-width:1023px) {
+    .formContainer{
+        width: 700px;
+        height: auto;
+        gap: 10px;
+        padding: 0 30px;
+    }
+    .nameGrid{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .nameGrid > .firstNameDiv > .inputBox {
+        width: 200px;
+    }
+    .nameGrid > .lastNameDiv > .inputBox {
+        width: 150px;
+    }
+    .inputDiv{
+        flex-direction: row;
+    }
+    .addressGrid{
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+    }
+}
