@@ -16,10 +16,12 @@ import Advanced from './pages/Advanced.jsx'
 import Expert from './pages/Expert.jsx'
 import HeroSection from './components/HeroSection.jsx'
 
+import Home from './pages/Home.jsx'
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout />}>
       <Route path='' element={<HeroSection />} />
+      <Route path='home' element={<Home />} />
       <Route path='beginner' element={<Beginner />} />
       <Route path='intermediate' element={<Intermediate />} />
       <Route path='advanced' element={<Advanced />} />

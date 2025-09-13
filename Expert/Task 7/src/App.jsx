@@ -11,8 +11,8 @@ function App() {
 
   return (
     <>
-      <HeroSection />
-      <Skills />
+    {/* //   <HeroSection />
+    //   <Skills /> */}
     </>
   )
 }

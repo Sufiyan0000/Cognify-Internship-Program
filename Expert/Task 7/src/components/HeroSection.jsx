@@ -27,7 +27,7 @@ function HeroSection() {
             and modern <span className="bg-yellow-300 font-semibold px-1 rounded-lg">JavaScript</span> , always striving to create elegant solutions
             for real-world problems.
           </p>
-          <a href="" download className="flex items-center gap-2 text-lg rounded-lg bg-blue-600 text-white px-4 py-2 transition-colors duration-300 mt-[-4px] hover:bg-blue-700">
+          <a href="./documents/Resume.pdf" download="Md_Sufiyan_Ali_Resume.pdf" className="flex items-center gap-2 text-lg rounded-lg bg-blue-600 text-white px-4 py-2 transition-colors duration-300 mt-[-4px] hover:bg-blue-700">
             <span>
                 <MdDownload />
             </span>

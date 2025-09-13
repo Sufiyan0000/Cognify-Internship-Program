@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import { FaGithub } from "react-icons/fa";
 
 function Advanced() {
   return (
@@ -10,10 +11,10 @@ function Advanced() {
         <a
           href="https://github.com/Sufiyan0000/Cognify-Internship-Program/tree/main/Advanced"
           target="_blank"
-          className="w-fit bg-blue-600 px-4 py-2 text-white hover:opacity-90"
+          className="w-fit bg-blue-600 px-4 py-2 text-white hover:opacity-90 flex gap-2 justify-center items-center"
         >
           {" "}
-          Advanced Tasks.
+          Advanced Tasks. <span><FaGithub /></span>
         </a>
       </div>
     </div>

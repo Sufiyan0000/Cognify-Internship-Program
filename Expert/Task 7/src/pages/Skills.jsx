@@ -9,6 +9,7 @@ import javaImg from "../assets/images/javaImg.png";
 import pythonImg from "../assets/images/pythonImg.png";
 import djangoImg from "../assets/images/djangoImg.png";
 import sqlImg from "../assets/images/sqlImg.png";
+import sassImg from "../assets/images/sassImg.png";
 
 function Skills() {
   const UsingSkill = [
@@ -24,23 +25,34 @@ function Skills() {
     },
     {
       id: 3,
+      skill: "SASS",
+      img: sassImg,
+    },
+    {
+      id: 4,
+      skill: "Bootstrap",
+      img: bootstrapImg,
+    },
+    {
+      id: 5,
+      skill: "tailwind",
+      img: 'https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg',
+    },
+    {
+      id: 6,
       skill: "JavaScript",
       img: jsImg,
     },
     {
-      id: 4,
+      id: 7,
       skill: "ReactJS",
       img: reactImg,
     },
+    
     {
-      id: 5,
+      id: 8,
       skill: "Github",
       img: githubImg,
-    },
-    {
-      id: 6,
-      skill: "Bootstrap",
-      img: bootstrapImg,
     },
   ];
   const learning = [
@@ -58,6 +70,11 @@ function Skills() {
       id: 3,
       skill: "SQL",
       img: sqlImg,
+    },
+    {
+      id: 4,
+      skill: "Java",
+      img: javaImg,
     },
   ];
 
