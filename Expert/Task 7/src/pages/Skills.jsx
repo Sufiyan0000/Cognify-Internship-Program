@@ -42,7 +42,6 @@ function Skills() {
       skill: "Bootstrap",
       img: bootstrapImg,
     },
-    
   ];
   const learning = [
     {

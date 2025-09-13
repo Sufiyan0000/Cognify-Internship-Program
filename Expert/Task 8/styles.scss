@@ -1,0 +1,79 @@
+$color : #3498db;
+$fontSize: 16px;
+$logoColor: rgb(255, 0, 195);
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    font-size: $fontSize;
+    font-weight: bold;
+    color: $logoColor;
+    text-align: center;
+   
+}
+header {
+    h1{
+        color: $color;
+        text-align: center;
+        padding: 20px 0;
+
+        .logo{
+            font-size: 24px;
+            font-weight: bold;
+            color: $logoColor;
+            text-align: center;
+
+            &:hover{
+                color: darken($color: $logoColor, $amount: 10%);
+                cursor: pointer;
+        }
+    }
+}
+}
+
+// Nested Styling
+
+nav{
+    background-color: #3498db;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+
+    
+        .logo{
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+            background-color: $logoColor;
+            text-align: center;
+            padding: 5px 10px;
+
+            &:hover{
+                background-color: darken($logoColor, 10%);
+                cursor: pointer;
+            }
+        }
+    
+    ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+
+        li{
+            margin-right: 20px;
+            a{
+                color: white;
+                text-decoration: none;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
