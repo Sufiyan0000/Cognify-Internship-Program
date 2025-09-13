@@ -6,7 +6,7 @@ import { MdDownload, MdFileDownload } from "react-icons/md";
 function HeroSection() {
   return (
     <div className="flex flex-col lg:gap-20">
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="flex flex-col lg:flex-row-reverse items-center gap-2 md:gap-10 lg:gap-20 md:mx-auto">
         <img
           src={heroImg}

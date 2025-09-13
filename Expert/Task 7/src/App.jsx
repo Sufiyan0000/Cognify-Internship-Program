@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar'
-import HeroSection from './pages/HeroSection'
+import HeroSection from './components/HeroSection'
 import Skills from './pages/Skills'
 
 function App() {

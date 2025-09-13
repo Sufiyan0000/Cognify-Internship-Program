@@ -21,9 +21,10 @@ function Navbar() {
         </h1>
 
         <div className="nav-links hidden md:flex items-center gap-8 text-lg font-normal mr-3">
-          <NavLink to='' style={activeStyle}> Home </NavLink>
+          <NavLink to='/home' style={activeStyle}> Home </NavLink>
           <NavLink to="/beginner" style={activeStyle}> Beginner </NavLink>
           <NavLink to="/intermediate" style={activeStyle}> Intermediate </NavLink>
+          <NavLink to="/advanced" style={activeStyle}> Advanced </NavLink>
           <NavLink to="/expert" style={activeStyle}> Expert </NavLink>
         </div>
 
@@ -53,6 +54,7 @@ function Navbar() {
         <NavLink to='' style={activeStyle}> Home </NavLink>
         <NavLink to="/beginner" style={activeStyle}> Beginner </NavLink>
         <NavLink to="/intermediate" style={activeStyle}> Intermediate </NavLink>
+        <NavLink to="/advanced" style={activeStyle}> Advanced </NavLink>
         <NavLink to="/expert" style={activeStyle}> Expert </NavLink>
       </div>
     </header>
