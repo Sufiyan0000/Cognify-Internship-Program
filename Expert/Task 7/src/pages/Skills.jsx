@@ -97,7 +97,7 @@ function Skills() {
 
       <div className="w-3/4 p-3 flex flex-col gap-5 items-start">
         <h3 className="text-2xl">LEARNING : </h3>
-        <div className="flex flex-wrap items-center justify-center p-5 gap-15 md:gap-20 ">
+        <div className="flex flex-wrap items-center justify-center p-5 gap-15 md:gap-21 ">
           {learning.map((item) => (
             <div
               key={item.id}
